@@ -41,7 +41,7 @@ export default defineEventHandler(async (event) => {
     db
       .select({ total: sql<number>`count(*)`.mapWith(Number) })
       .from(products)
-      .where(active),
+      .where(filtered),
   ]);
 
   const total = totalRows[0]?.total ?? 0;
