@@ -64,7 +64,7 @@
     "unplugin-auto-import": "^21.0.0",
     "vite-svg-loader": "^5.1.1",
     "vitest": "^4.1.10",
-    "vue-tsc": "^3.3.8"
+    "vue-tsc": "^3.3.14"
   },
   "engines": {
     "node": "24.14.0"
