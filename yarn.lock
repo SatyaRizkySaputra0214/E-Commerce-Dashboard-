@@ -9775,13 +9775,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"pinia@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "pinia@npm:4.0.2"
+"pinia@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "pinia@npm:4.1.0"
   dependencies:
-    nostics: "npm:^1.1.4"
+    nostics: "npm:^1.2.0"
   peerDependencies:
-    "@vue/devtools-api": ^8.1.5
+    "@vue/devtools-api": ^8.2.1
     typescript: ">=5.6.0"
     vue: ^3.5.11
   peerDependenciesMeta:
@@ -9789,7 +9789,7 @@ __metadata:
       optional: false
     typescript:
       optional: true
-  checksum: 10/7360bd9c9cde49db7b188c4180b45cb4775f2a5ed3969a16e0396f8d1dd6335dc820d0aa703c4226f00ec8534bb0158c759eae9dd9c3cd36c8183cf5c03be01f
+  checksum: 10/a44bfd93ced70f0410b09eb409ca33d4865d937320fecfecb50a888c95fbdacf93069b75710c84f5bec6a317a2ef644df0738a6c722d8c8acbe53b63566dc764
   languageName: node
   linkType: hard
 
@@ -10863,7 +10863,7 @@ __metadata:
     nuxt: "npm:^4.5.1"
     oxfmt: "npm:^0.61.0"
     oxlint: "npm:^1.76.0"
-    pinia: "npm:^4.0.2"
+    pinia: "npm:^4.1.0"
     postgres: "npm:^4.0.0"
     sass: "npm:^1.102.0"
     sass-loader: "npm:^17.0.0"
