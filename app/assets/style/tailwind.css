@@ -1,0 +1,55 @@
+@import 'tailwindcss';
+
+/*
+  Theme tokens for the "achromatic ledger" direction:
+  flat planes, 1px rules, warm stone ground, a single data hue.
+  Component styling lives in templates via utility classes — this file only defines tokens.
+*/
+
+@theme {
+  --font-sans: 'Geist', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, 'Cascadia Mono', 'Segoe UI Mono', monospace;
+
+  /* planes & chrome */
+  --color-ground: #f4f3f1;
+  --color-surface: #ffffff;
+  --color-line: #e8e7e3;
+  --color-line-strong: #d7d6d0;
+  --color-hover: #ebeae6;
+
+  /* ink scale */
+  --color-ink: #1c1b19;
+  --color-ink-2: #6e6c66;
+  --color-ink-3: #a5a39c;
+
+  /* the single data hue */
+  --color-data: #1d5fbf;
+
+  /* primary action */
+  --color-primary: #201f1d;
+  --color-primary-ink: #ffffff;
+
+  /* status pills — pale tint, dark ink */
+  --color-pending: #fffbeb;
+  --color-pending-ink: #92400e;
+  --color-processing: #eef4fd;
+  --color-processing-ink: #1e4480;
+  --color-completed: #dcfae5;
+  --color-completed-ink: #04250e;
+  --color-cancelled: #ffedea;
+  --color-cancelled-ink: #831c1e;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-ground);
+    color: var(--color-ink);
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  ::selection {
+    background-color: var(--color-ink);
+    color: var(--color-surface);
+  }
+}

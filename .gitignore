@@ -1,0 +1,50 @@
+﻿# Local credentials and session artifacts
+.env
+.env.*
+!.env.example
+.cookies-*.txt
+*.pem
+*.key
+
+# Local logs, generated builds, caches, and browser inspection artifacts
+*.log
+logs/
+/server/_logs
+.nuxt/
+.output/
+/dist/
+/storybook-static/
+/node_modules/
+/coverage/
+/.nyc_output/
+/.taste-skill/
+/data/
+
+# Local agent tooling and task scratch files
+/skills/
+/.agents/
+/.codex/
+task (1).md
+
+# Yarn cache
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+
+# Tests and local snapshots
+*/testing/snapshots/current
+*/testing/snapshots/difference
+
+# Operating system and editor files
+.DS_Store
+.idea/
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+*.code-workspace
+
+# TypeScript build metadata
+/tsconfig.tsbuildinfo

@@ -1,0 +1,6 @@
+{
+  "todo-tree.tree.showBadges": false,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "oxc.oxfmt",
+  "prettier.enable": false
+}
